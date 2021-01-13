@@ -1,0 +1,12 @@
+*{margin:0px;padding:0px;}
+body{background-color:#f7f7f7;}
+.container{max-width:1200px;padding:0px 35px;margin:0px auto;}
+:root{
+	--main-color:#5da763;
+	--secondary-text-color:#fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+header{padding: 30px 0px;background-color: var(--main-color);} 
+header .container{display:flex; justify-content: space-between;}
+h2{color:var(--secondary-text-color);font-size: 36px;font-family: 'Dancing Script', cursive;}
